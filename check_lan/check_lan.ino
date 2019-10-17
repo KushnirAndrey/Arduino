@@ -30,14 +30,14 @@ void green_led_on()
 
 
 void setup() 
-{  
-  Serial.begin(9600);   
+{
+  Serial.begin(115200);
   pinMode(green_led, OUTPUT);
   pinMode(red_led, OUTPUT);
   pinMode(blue_led, OUTPUT);
-  digitalWrite(blue_led, HIGH);
-  digitalWrite(red_led, LOW); 
+  digitalWrite(red_led, LOW);
   digitalWrite(green_led, LOW);
+  digitalWrite(blue_led, HIGH);
 };
 
 
